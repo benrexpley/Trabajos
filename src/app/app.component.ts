@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Tarea2';
+
+  public hola(): void {
+
+  }
+  public multiDosNumeros(n1:number, n2: number): number{
+    return n1 * n2;
+  }
+
+  cosa: boolean = false;
+  sad: boolean = false;
+  crazy: boolean = false;
+
 }
+
